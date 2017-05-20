@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "devpipeline-f16ff",
+    "staging": "devpipeline-staging"
+  }
+}
