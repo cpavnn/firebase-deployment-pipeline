@@ -1,0 +1,19 @@
+{
+  "name": "prod",
+  "version": "1.0.0",
+  "description": "Setup the basic deployment pipeline for firebase projects",
+ 
+  "scripts": {
+    "test": "mocha --reporter progress test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpavnn/firebase-deployment-pipeline.git"
+  },
+  "author": "pavan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpavnn/firebase-deployment-pipeline/issues"
+  },
+  "homepage": "https://github.com/cpavnn/firebase-deployment-pipeline#readme"
+}
