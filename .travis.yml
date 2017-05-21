@@ -4,8 +4,8 @@ node_js:
 before_script :
  - "npm install -g mocha"
 script:
- - "npm test"
+ - echo "Deploy!!"
 install:
   - npm install -g firebase-tools
 after_success:
-  - firebase deploy --project devpipeline-staging --token $FIREBASE_TOKEN﻿
+  - firebase deploy --project devpipeline-staging --token $FIREBASE_TOKEN
